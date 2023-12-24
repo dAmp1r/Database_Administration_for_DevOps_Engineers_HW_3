@@ -39,3 +39,15 @@ services:
 ![show profiles](https://github.com/dAmp1r/Database_Administration_for_DevOps_Engineers_HW_3/blob/main/33.png)                
 
 Задание 4.
+
+```
+[mysqld]
+
+innodb_flush_log_at_trx_commit = 2
+
+innodb_file_per_table = 1
+
+innodb_log_buffer_size = 1M
+innodb_buffer_pool_size = 1G
+innodb_log_file_size = 100M
+```
