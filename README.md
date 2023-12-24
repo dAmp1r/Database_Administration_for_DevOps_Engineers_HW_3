@@ -21,21 +21,21 @@ services:
 ```                
 ```mysql> create databases orders;```              
 ```bash-4.4# mysql -u root -p orders < test_dump.sql ```           
-![mysql> status]()               
-![show tables]()                    
-![price > 300]()            
+![mysql> status](https://github.com/dAmp1r/Database_Administration_for_DevOps_Engineers_HW_3/blob/main/11.png)               
+![show tables](https://github.com/dAmp1r/Database_Administration_for_DevOps_Engineers_HW_3/blob/main/12.png)                    
+![price > 300](https://github.com/dAmp1r/Database_Administration_for_DevOps_Engineers_HW_3/blob/main/13.png)            
 
 Задание 2.
 
 ```create user 'test'@'localhost' identified with mysql_native_password by '123' with max_queries_per_hour 100 password expire interval 180 day failed_login_attempts 3 attribute '{"first_name": "James", "last_name":"Pretty"}';```                                    
 ```grant select on orders.* to 'test'@'localhost';```                
 ```select * from information_schema.user_attributes where user='test';```                
-![вывод команды]()             
-![show engine]()
-![change engine]()
+![вывод команды](https://github.com/dAmp1r/Database_Administration_for_DevOps_Engineers_HW_3/blob/main/21.png)             
+![show engine](https://github.com/dAmp1r/Database_Administration_for_DevOps_Engineers_HW_3/blob/main/31.png)
+![change engine](https://github.com/dAmp1r/Database_Administration_for_DevOps_Engineers_HW_3/blob/main/32.png)
 
 Задание 3.
 
-![show profiles]()                
+![show profiles](https://github.com/dAmp1r/Database_Administration_for_DevOps_Engineers_HW_3/blob/main/33.png)                
 
 Задание 4.
